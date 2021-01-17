@@ -439,6 +439,13 @@ hr {
 }
 .login-form {
     width: 30%;
+    position: relative;
+}
+.login-form img {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    z-index: 90;
 }
 .forgot-password {
     margin-top: 2%;
